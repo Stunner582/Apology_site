@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I'm Sorry, Shruthi ❤️</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+      color: #ffffff;
+      margin: 0;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6em;
+    }
+    .heart {
+      position: fixed;
+      bottom: -50px;
+      left: 50%;
+      width: 28px;
+      height: 28px;
+      background-color: red;
+      transform: rotate(-45deg);
+      animation: float 6s infinite;
+      opacity: 0.8;
+    }
+    .heart::before,
+    .heart::after {
+      content: "";
+      position: absolute;
+      width: 28px;
+      height: 28px;
+      background-color: red;
+      border-radius: 50%;
+    }
+    .heart::before { top: -14px; left: 0; }
+    .heart::after  { left: 14px; top: 0; }
+
+    @keyframes float {
+      0%   { transform: translateY(0) rotate(-45deg);   opacity: 1; }
+      100% { transform: translateY(-100vh) rotate(-45deg); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <h1>I'm Sorry, Shruthi ❤️</h1>
+  <p>
+    I'm so sorry my sweet heart. I hurted you baby 🥺.<br />
+    I don't want to irritate or distrub you don't mistake me
+  </p>
+
+  <!-- Floating hearts -->
+  <div class="heart" style="left:40%"></div>
+  <div class="heart" style="left:50%"></div>
+  <div class="heart" style="left:60%"></div>
+</body>
+</html>
